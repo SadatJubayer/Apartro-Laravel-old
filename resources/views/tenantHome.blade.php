@@ -1,1 +1,1 @@
-<h1>Hello</h1>
+@include('Backend.template.layout')
