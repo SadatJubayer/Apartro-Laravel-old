@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
  
-    <title>Matrix Template - The Ultimate Multipurpose admin template</title>
+    <title>Aparto- An Ultimate Apartment Solution</title>
     <!-- Custom CSS -->
     <link href="{{ asset('backend/assets/libs/flot/css/float-chart.css')}}" rel="stylesheet">
     <!-- Custom CSS -->
