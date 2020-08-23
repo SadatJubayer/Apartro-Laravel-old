@@ -52,13 +52,13 @@ class LoginController extends Controller
         {
             if (auth()->user()->is_admin == 1) {
                 return redirect()->route('admin.home');
-            }elseif(auth()->user()->is_admin == 2){
+            }elseif(auth()->user()->is_admin == 0){
                 return redirect()->route('owner.home');
             }
-            elseif(auth()->user()->is_admin == 3){
+            elseif(auth()->user()->is_admin == 2){
                 return redirect()->route('tenant.home');
             }
-            elseif(auth()->user()->is_admin == 4){
+            elseif(auth()->user()->is_admin == 3){
                 return redirect()->route('employee.home');
             }
         }else{
