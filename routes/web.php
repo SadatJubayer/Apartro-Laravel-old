@@ -27,3 +27,5 @@ Route::get('admin/home', 'HomeController@adminHome')->name('admin.home')->middle
 Route::get('owner/home', 'HomeController@ownerHome')->name('owner.home')->middleware('is_admin');
 Route::get('tenant/home', 'HomeController@tenantHome')->name('tenant.home')->middleware('is_admin');
 Route::get('employee/home', 'HomeController@employeeHome')->name('employee.home')->middleware('is_admin');
+
+//starting work
